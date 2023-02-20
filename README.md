@@ -31,7 +31,7 @@ Plugin:RSAssistant 는 알서포트가 제공하는 원격 기반 서비스(원�
 ## 모비즌 스크린 레코더
 화면을 녹화하는 android app 입니다.
 
-**사용기술**: Room, Coroutine, Rxjava, Retrofit, MediaProjection
+**사용기술**: Room, Coroutine, Rxjava, Retrofit, MediaProjection  
 <a href="https://play.google.com/store/apps/details?id=com.rsupport.mvagent">
 <img src="file/google-play.png" style="width:10%; height:10%;">
 <br>
