@@ -29,9 +29,9 @@ Plugin:RSAssistant 는 알서포트가 제공하는 원격 기반 서비스(원�
 
 
 ## 모비즌 스크린 레코더
-화면을 녹화하는 android app 입니다.
+화면을 녹화하는 android app 으로 누적 다운로드가 1억회 이상의 앱입니다.
 
-**사용기술**: Room, Coroutine, Rxjava, Retrofit, MediaProjection  
+**사용기술**: Room, Coroutine, Rxjava, Retrofit, MediaProjection, Firebase crashtics  
 <a href="https://play.google.com/store/apps/details?id=com.rsupport.mvagent">
 <img src="file/google-play.png" style="width:10%; height:10%;">
 <br>
@@ -53,7 +53,7 @@ Plugin:RSAssistant 는 알서포트가 제공하는 원격 기반 서비스(원�
 
 
 ## Logger
-Android OS 에서 이슈 발생시 로그 취득을 목적으로 하는 app 입니다.  
+Android OS 에서 이슈 발생시 로그 취득을 목적으로 하는 app 및 Native daemon 입니다.  
 Android logcat 뿐만 아니라 kernel message, bluetooth log, tcpdump 도 지원합니다.  
 Native service 는 C++, app 은 java/kotlin 으로 개발 되었습니다.
 
@@ -79,12 +79,18 @@ Native service 는 C++, app 은 java/kotlin 으로 개발 되었습니다.
 </table>
 
 
-## OEMConfig
+## OEMConfig(Bluebird)
 OEMConfig 는 OEM(단말 제조사)에서 제공하는 Android Enterprise 솔루션 입니다.  
 일반적으로 단말의 설정(wifi, 화면밝기 등)의 제어에 대한 접근을 DeviceAdmin(기기 관리자) 에게 제공합니다.  
 [DeviceAdminPolicyManager](https://developer.android.com/reference/android/app/admin/DevicePolicyManager)
 에서 제공하지 않는 기능을 OEM 에서 제공하기 위해 Google 에서 표준으로 제작하였습니다.  
 대표적으로 삼성단말에서는 [Knox](https://www.samsungknox.com/en/solutions/it-solutions/knox-platform-for-enterprise) 로 제공됩니다.
+
+<a href="https://play.google.com/store/apps/details?id=com.bluebird.android.oemconfig">
+<img src="file/google-play.png" style="width:10%; height:10%;">
+<br>
+<span>Play store page</span>
+</a>
 
 <img src="file/oemconfig.png" style="border: 1px solid black; padding: 20px;">
 
